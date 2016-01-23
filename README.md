@@ -1,6 +1,6 @@
 # PHP-FPM-status-Cacti
 
-Cacti template for PHP-FPM Status Page. Template based on curl, not SNMP. (Screenshots)
+Cacti template for PHP-FPM Status Page. Template based on curl, not SNMP. ([Screenshots] (https://github.com/Busindre/PHP-FPM-status-Cacti/issues/1 "Cacti template for PHP-FPM Status Page screenshots"))
 
 **PHP-FPM Status Page example.**
 ```
@@ -20,7 +20,7 @@ max children reached: 0
 slow requests:        0
 ```
 
-## PHP-FPM status Host template (Associated Graph Templates)
+## PHP-FPM Status Host Template (Associated Graph Templates)
 
 - php-fpm status accepted (accepted conn).
 - php-fpm status problems (slow requests, max children reached, listen queue, listen queue len).
@@ -31,7 +31,7 @@ slow requests:        0
 - Copy the script "php-fpm_status.sh" to <cacti_dir>/scripts/ directory.
 - HTTP connection options (Authentication, Proxy, etc) are easily configurable in the file "php-fpm_status.sh".
 - Import the file xml in Cacti.
-- PHP-FPM status URLs should be written in the field "hostname" of "Device" (https://www.domian.com/XXXX).
+- PHP-FPM status URL should be written in the field "hostname" of "Device" (https://www.domian.com/XXXX).
 
 ## Dependencies
 
