@@ -656,7 +656,7 @@
 	<hash_03002504e7b4ec84d9c10fd6783bf5104f088b>
 		<name>php-fpm-status</name>
 		<type_id>1</type_id>
-		<input_string>/bin/bash &lt;path_cacti&gt;/scripts/php_fpm_status2.sh &lt;url&gt;</input_string>
+		<input_string>/bin/bash &lt;path_cacti&gt;/scripts/php-fpm_status.sh &lt;url&gt;</input_string>
 		<fields>
 			<hash_070025b50e3b80b286db0c0ed47f7049690ec3>
 				<name>URL php-fpm status page</name>
